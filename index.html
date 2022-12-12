@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro site</title>
+    <style>
+        /* 
+        . -> class
+        # -> id
+        sem nada -> tag
+        */
+
+        .titulo-secundario {
+            text-transform: uppercase;
+        }
+
+        #legenda {
+            text-decoration: underline;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        h2 {
+            color: green
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 0">
+    <div>
+        <header style="background-color: red; padding: 20px;">
+            <a href="/" >home</a>
+        </header>
+        <h1 style="color: blue; text-align: center;">titulo principal</h1>
+
+        <div style="background-color: pink; padding: 0 30px; display: flex;">
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                <h2 class="titulo-secundario">titulo secundario</h2>
+                <p style="text-align: justify;">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type 
+                    specimen book. It has survived not only five centuries, but also the leap into 
+                    electronic typesetting, remaining essentially unchanged. It was popularised in 
+                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                    and more recently with desktop publishing software like Aldus PageMaker including 
+                    versions of Lorem Ipsum.
+                </p>
+                <p style="text-align: justify;" id="legenda">
+                    legenda
+                </p>
+            </div>
+            <div>
+                <img 
+                    src="https://gartic.com.br/imgs/mural/su/supersonic_br/um-desenho-qualquer-15.png" 
+                    alt="sonic" 
+                    style="width: 300px; padding: 6px; margin-left: 50px;"
+                />
+            </div>
+        </div>
+
+        <div style="background-color: pink; padding: 0 30px; display: flex; border: 2px solid black;">
+            <div>
+                <h2>titulo terceario</h2>
+                <p style="text-align: justify;">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type 
+                    specimen book. It has survived not only five centuries, but also the leap into 
+                    electronic typesetting, remaining essentially unchanged. It was popularised in 
+                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                    and more recently with desktop publishing software like Aldus PageMaker including 
+                    versions of Lorem Ipsum.
+                </p>
+            </div>
+            <div>
+                <img 
+                    src="https://gartic.com.br/imgs/mural/pq/pqmilooca/um-desenho-qualquer-2.png" 
+                    alt="sonic" 
+                    style="width: 300px; padding: 6px; margin-left: 50px;"
+                />
+            </div>
+        </div>
+
+        <div style="margin-top: 10px">
+            <input type="text" placeholder="envie uma mensagem"/>
+            <button type="button"> enviar </button>
+        </div>
+
+        <div style="background-color: gray; padding: 20px 10px; margin-top: 70px;">rodapé</div>
+    </div>
+</body>
+</html>
