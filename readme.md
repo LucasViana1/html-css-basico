@@ -34,3 +34,5 @@
 * deixar legenda alinhada a direita
 * input e botão de formulario alinhado a esquerda e um em cima do outro
 * atenção: desktop não pode ser alterado
+
+duvida no .imagem2

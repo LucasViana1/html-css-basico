@@ -2,10 +2,12 @@
     margin: 0; 
     padding: 0; 
     text-align: center;
+    background-color: antiquewhite;
 }
 
 .cabeça {
-    background-color: darkmagenta; padding: 20px;
+    background-color: peru; 
+    padding: 20px;
     font-weight: bold;
     font-size: 15px;
     text-transform: uppercase;
@@ -14,24 +16,35 @@
 }
 
 .cabeça a{
-    color: aqua;
+    color: rgb(8, 230, 230);
     font-family:Arial, Helvetica, sans-serif;
     margin-left: 10px;
 }
 
+.cabeça a:hover {
+    color: gold;
+    font-size: 17px;
+}
+
 .titulo-primario {
-    color: black; text-align: center;
+    color: black; 
+    text-align: center;
     text-transform: uppercase;
     font-weight: bold;
 }
 
 .fundotexto1 {
-    background-color: rgb(135, 207, 235); padding: 0 30px; display: flex; flex-direction: column
+    background-color: rgb(235, 200, 135); 
+    padding: 0 30px; 
+    display: flex; 
+    flex-direction: column
     
 }
 
 .alinhamentotexto1 {
-    display: flex; align-items: center; justify-content: center;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
     border: 2px solid black
 }
 
@@ -47,15 +60,21 @@
 #legenda {
     text-decoration: underline;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold; text-align: justify
+    font-weight: bold; 
+    text-align: justify
 }
 
 .imagem1 {
-    width: 300px; padding: 6px; margin-left: 50px;
+    width: 300px; 
+    padding: 6px; 
+    margin-left: 50px;
 }
 
 .fundotexto2 {
-    background-color: skyblue; padding: 0 30px; display: flex; border: 2px solid black;
+    background-color: rgb(235, 200, 135); 
+    padding: 0 30px; 
+    display: flex; 
+    border: 2px solid black;
 }
 
 h2 {
@@ -69,11 +88,36 @@ h2 {
 }
 
 .imagem2 {
-    width: 300px; padding: 6px; margin-left: 50px;
+    width: 300px; 
+    padding: 6px; 
+    margin-left: 50px;
+}
+
+footer section a{
+    padding-left: 15px;
 }
 
 .formulario {
     margin-top: 10px
+}
+
+.formulario input{
+    border-color: peru;
+    background-color:antiquewhite ;
+}
+
+.botão {
+background-color: antiquewhite;
+color: teal;
+font-weight: bold;
+border-color: peru;
+}
+
+.botão:hover {
+    color: antiquewhite;
+    background-color: peru;
+    border-color: teal;
+    transition-timing-function: ease-in-out;
 }
 
 .rodape {
@@ -87,8 +131,42 @@ h2 {
     width: 40px;
 }
 
+.rodape section img:hover {
+    width: 43px;
+}
+
 @media (max-width: 500px) {
+    .cabeça {
+        text-align: center;
+        padding-left: 10px;
+    }
     .alinhamentotexto1 {
         flex-direction: column;
+        padding: 0 20px;
+    }
+    #legenda {
+        text-align: right;
+    }
+    .imagem1 {
+        width: 300px;
+       padding-right: 50px;
+    }
+    .fundotexto2 {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .imagem2 {
+        margin-left: -45px;
+        width: 300px;
+    }
+    .formulario {
+        text-align: start;
+        display: block;
+        margin-left: 10px;
+    }
+    .botão {
+        display: block;
+        margin-top: 5px;
+        margin-left: 120px;
     }
 }
