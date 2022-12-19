@@ -34,17 +34,17 @@ body {
     font-size: 16px
 }
 
-.tittle {
+.title {
     text-align: initial ;
     display: flex;
 }
-.tittle h1 {
+.title h1 {
     text-align: center;
     justify-content: center;
    
 }
 
-.tittle div {
+.title div {
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -64,7 +64,7 @@ body {
     font-weight: bold;
 }
 
-.tittle__whatsapplink {
+.title__whatsapplink {
     width: 60px;
     position: fixed;
     left: 94.5% ;
@@ -85,7 +85,7 @@ body {
     border: 2px solid black
 }
 
-.main__secondarytittle {
+.main__secondarytitle {
     text-transform: uppercase;
 }
 
@@ -106,7 +106,7 @@ body {
     margin-left: 50px;
 }
 
-.main__tertiarytittle {
+.main__section2 {
     background-color: rgb(235, 200, 135); 
     padding: 0 30px; 
     display: flex; 
@@ -182,6 +182,11 @@ footer section a {
         padding-left: 35px;
     }
 
+    .title__whatsapplink {
+        left: 82.5%;
+    }        
+    
+
     .main__section1 {
         flex-direction: column;
         padding: 0 20px;
@@ -193,7 +198,7 @@ footer section a {
         width: 300px;
        padding-right: 50px;
     }
-    .main__tertiarytittle {
+    .main__section2 {
         flex-direction: column;
         padding: 0 20px;
     }
