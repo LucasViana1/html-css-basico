@@ -6,26 +6,37 @@
     <title>Primeiro site</title>
     <link rel="stylesheet" href="Style.css">
 </head>
-<body class="corpo">
+<body>
     
-    <header class="cabeça">
-        <a href="./" >home</a>
-        <a 
+    <header class="header">
+        <a class="header__link header__link--home" href="./" >home</a>
+        <a class="header__link"
             href="https://www.youtube.com/watch?v=uuTpwCq6j5w&ab_channel=VoiceMakers" 
             target="_blank" 
             rel="noopener noreferrer"
         >MEME</a>
     </header>
 
-    <article>
-        <h1 class="titulo-primario" >titulo principal</h1>
+    <article class="tittle">
+        <img  
+            class="title__img"
+            src="https://w7.pngwing.com/pngs/175/934/png-transparent-batman-joker-batgirl-logo-batman-logo-batman-logo-superhero-smiley-sticker.png"
+            alt="batman"/>
+        <div>
+            <h1 class="title__text" >titulo principal</h1>
+        </div>
+         <a href="https://wa.me/5541998318902" target="_blank" rel="noopener noreferrer">  
+         <img class="tittle__whatsapplink"  
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/479px-WhatsApp.svg.png"
+            alt="whatsapp"/>
+        </a> 
     </article>
 
-    <main class="fundotexto1">
-        <section class="alinhamentotexto1">
+    <main class="main">
+        <section class="main__section1">
             <article>
-                <h2 class="titulo-secundario">titulo secundario</h2>
-                <p class="texto1">
+                <h2 class="main__secondarytittle">titulo secundario</h2>
+                <p class="main__primarytext">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                     when an unknown printer took a galley of type and scrambled it to make a type 
@@ -35,7 +46,7 @@
                     and more recently with desktop publishing software like Aldus PageMaker including 
                     versions of Lorem Ipsum.
                 </p>
-                    <p id="legenda">
+                    <p class="main__subtitle">
                         legenda
                     </p>
             </article>
@@ -44,16 +55,16 @@
                 <img 
                 src="https://gartic.com.br/imgs/mural/su/supersonic_br/um-desenho-qualquer-15.png" 
                 alt="sonic" 
-                class="imagem1"
+                class="main__primaryimg"
                 />
             </figure>
         </section>
     
 
-        <section class="fundotexto2">
+        <section class="main__tertiarytittle">
             <article>
                 <h2>titulo terceario</h2>
-                <p class="texto2">
+                <p class="main__secondarytext">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                     when an unknown printer took a galley of type and scrambled it to make a type 
@@ -67,30 +78,39 @@
                 <figure>
                     <img 
                         src="https://gartic.com.br/imgs/mural/pq/pqmilooca/um-desenho-qualquer-2.png" 
-                        alt="sonic" 
-                        class="imagem2" 
+                        alt="charge" 
+                        class="main__secondaryimg" 
                     />
                 </figure>
         </section>
     </main>
 
-    <form class="formulario">
+    <form class="form">
         <input type="text" placeholder="envie uma mensagem"/>
-        <button class="botão" type="button"> enviar </button>
+        <button class="form__button" type="button"> enviar </button>
     </form>
 
-    <footer class="rodape">
+    <footer class="footer">
         <section>
             <a href="https://www.instagram.com/xuliomarques/" target="_blank" rel="noopener noreferrer">
-                <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="instagram" />
+                    <img  
+                        id="instagram" 
+                        src="https://cdn-icons-png.flaticon.com/512/87/87390.png" 
+                        alt="instagram" />
              </a>
             <a href="https://www.facebook.com/profile.php?id=100006927436387" 
                 target="_blank" 
                 rel="noopener noreferrer"> 
-                 <img src="https://cdn.icon-icons.com/icons2/2248/PNG/512/facebook_icon_137647.png"/>
+                     <img 
+                        id="facebook" 
+                        src="https://cdn.icon-icons.com/icons2/2248/PNG/512/facebook_icon_137647.png"
+                        alt="facebook"/>
              </a>
             <a href="https://github.com/TheMasaki" target="_blank" rel="noopener noreferrer">
-                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"/>
+                <img
+                    id="github"  
+                    src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                    alt="github"/>
             </a>
         </section>
     </footer>

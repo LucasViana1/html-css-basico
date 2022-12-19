@@ -1,76 +1,112 @@
-.corpo {
+body {
     margin: 0; 
     padding: 0; 
     text-align: center;
     background-color: antiquewhite;
 }
 
-.cabeça {
+.header {
     background-color: peru; 
     padding: 20px;
     font-weight: bold;
     font-size: 15px;
     text-transform: uppercase;
     text-align: initial;
-    
 }
 
-.cabeça a{
+.header__link{
     color: rgb(8, 230, 230);
     font-family:Arial, Helvetica, sans-serif;
     margin-left: 10px;
 }
 
-.cabeça a:hover {
+.header__link--home {
+    color: brown;
+} 
+
+.header__link:hover {
     color: gold;
-    font-size: 17px;
+    font-size: 16px;
 }
 
-.titulo-primario {
-    color: black; 
+.header__link--home:hover {
+    color: gray;
+    font-size: 16px
+}
+
+.tittle {
+    text-align: initial ;
+    display: flex;
+}
+.tittle h1 {
     text-align: center;
+    justify-content: center;
+   
+}
+
+.tittle div {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.title__img {
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: initial;
+    position: absolute;
+}
+
+.title__text {
+    color: black; 
     text-transform: uppercase;
     font-weight: bold;
 }
 
-.fundotexto1 {
+.tittle__whatsapplink {
+    width: 60px;
+    position: fixed;
+    left: 94.5% ;
+    bottom: 2%;
+}
+
+.main {
     background-color: rgb(235, 200, 135); 
     padding: 0 30px; 
     display: flex; 
     flex-direction: column
-    
 }
 
-.alinhamentotexto1 {
+.main__section1 {
     display: flex; 
     align-items: center; 
     justify-content: center;
     border: 2px solid black
 }
 
-.texto1 {
-    text-align: justify;
-}
-
-.titulo-secundario {
+.main__secondarytittle {
     text-transform: uppercase;
 }
 
+.main__primarytext {
+    text-align: justify;
+}
 
-#legenda {
+.main__subtitle {
     text-decoration: underline;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold; 
     text-align: justify
 }
 
-.imagem1 {
+.main__primaryimg {
     width: 300px; 
     padding: 6px; 
     margin-left: 50px;
 }
 
-.fundotexto2 {
+.main__tertiarytittle {
     background-color: rgb(235, 200, 135); 
     padding: 0 30px; 
     display: flex; 
@@ -82,89 +118,95 @@ h2 {
     text-transform: uppercase
 }
 
-.texto2 {
+.main__secondarytext {
     text-align: justify;
     color: black;
 }
 
-.imagem2 {
+.main__secondaryimg {
     width: 300px; 
     padding: 6px; 
     margin-left: 50px;
 }
 
-footer section a{
+footer section a {
     padding-left: 15px;
 }
 
-.formulario {
+.form {
     margin-top: 10px
 }
 
-.formulario input{
+.form input {
     border-color: peru;
     background-color:antiquewhite ;
 }
 
-.botão {
-background-color: antiquewhite;
-color: teal;
-font-weight: bold;
-border-color: peru;
+.form__button {
+    background-color: antiquewhite;
+    color: teal;
+    font-weight: bold;
+    border-color: peru;
 }
 
-.botão:hover {
+.form__button:hover {
     color: antiquewhite;
     background-color: peru;
     border-color: teal;
     transition-timing-function: ease-in-out;
 }
 
-.rodape {
+.footer {
     background-color: peru; 
     padding: 20px 10px;
-     margin-top: 70px;
+    margin-top: 70px;
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.rodape section img {
+.footer section img {
     width: 40px;
 }
 
-.rodape section img:hover {
-    width: 43px;
+#instagram:hover, #facebook:hover, #github:hover {
+    width: 42px;
+    margin: 0;
 }
 
 @media (max-width: 500px) {
-    .cabeça {
+    .header {
         text-align: center;
         padding-left: 10px;
     }
-    .alinhamentotexto1 {
+
+    .title__text {
+        padding-left: 35px;
+    }
+
+    .main__section1 {
         flex-direction: column;
         padding: 0 20px;
     }
-    #legenda {
+    .main__subtitle {
         text-align: right;
     }
-    .imagem1 {
+    .main__primaryimg {
         width: 300px;
        padding-right: 50px;
     }
-    .fundotexto2 {
+    .main__tertiarytittle {
         flex-direction: column;
         padding: 0 20px;
     }
-    .imagem2 {
+    .main__secondaryimg {
         margin-left: -45px;
         width: 300px;
     }
-    .formulario {
+    .form {
         text-align: start;
         display: block;
         margin-left: 10px;
     }
-    .botão {
+    .form__button {
         display: block;
         margin-top: 5px;
         margin-left: 120px;

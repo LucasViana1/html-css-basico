@@ -21,13 +21,13 @@
 * trocar os estilos em line para class
 * html semantico
 * X header: logo -> link home -> link youtube em outra aba
-* X button: trocar cor de fundo e do texto, mudar estilo do hover, mudar a borda
+* button: trocar cor de fundo e do texto, mudar estilo do hover, mudar a borda
 * X rodapé: icones instagram, facebook, github
 * trocar os estilos dos textos e trocar as cores
-* X colocar propriedades css uma em baixo da outra
+* colocar propriedades css uma em baixo da outra
 
 # 2 exercicio - responsividade
-* tamanho imagem
+* X tamanho imagem
 * textos do conteudo e da imagem um em baixo do outro
 * centralizar textos
 * links cabeçalho centralizado
@@ -35,4 +35,11 @@
 * input e botão de formulario alinhado a esquerda e um em cima do outro
 * atenção: desktop não pode ser alterado
 
-duvida no .imagem2
+# 3 exercicio - padrão organização css
+* aplicar padrão BEM no projeto [exemplo](https://desenvolvimentoparaweb.com/css/bem/)
+* o link da home tera um modifier
+
+# 4 exercicio - chat whats
+* usar position fixed
+* criar icone fixo na parte inferior direita do site, ao clicar nele abrir o whats na conversa
+
